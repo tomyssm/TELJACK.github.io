@@ -206,6 +206,11 @@
                 padding: 2rem 1.5rem;
             }
 
+            .img1{
+                width: 100px;
+                height: 100px;
+            }
+
             .section h1 {
                 font-size: 1.8rem;
             }
@@ -295,36 +300,13 @@
 
         <!-- Sección Información Adicional -->
         <div id="informacion" class="section">
-            <h1>Información Adicional</h1>
-            <p>Esta sección contiene información complementaria sobre el proyecto TelJack y sus características principales.</p>
-            
-            <h2>Reglas del Blackjack</h2>
-            <p>El objetivo del juego es obtener una puntuación lo más cercana posible a 21 sin pasarse. Las cartas tienen los siguientes valores:</p>
-            <ul>
-                <li>Cartas numéricas (2-10): Su valor nominal</li>
-                <li>Figuras (J, Q, K): Valor de 10</li>
-                <li>As: Valor de 1 u 11 (el que sea más favorable)</li>
-            </ul>
-            
-            <h2>Características del Sistema</h2>
-            <p>TelJack incluye las siguientes características principales:</p>
-            <ul>
-                <li>Interfaz intuitiva y fácil de usar</li>
-                <li>Lógica de juego completa según reglas oficiales</li>
-                <li>Manejo automático de As como 1 u 11</li>
-                <li>Validaciones de movimientos legales</li>
-                <li>Sistema de puntuación automático</li>
-            </ul>
-            
-            <div class="info-box">
-                <h3>Nota Importante</h3>
-                <p>Este proyecto está diseñado con fines educativos para demostrar principios de programación orientada a objetos y desarrollo de software.</p>
-            </div>
+            <h1>Diagrama de clases</h1>
+            <img src="imagenes/clases.png" width="750" height="800"></img>
         </div>
 
         <!-- Nueva Sección: Arquitectura -->
         <div id="arquitectura" class="section">
-            <h1>Arquitectura del Sistema</h1>
+            <h1>Pruebas</h1>
             <p>La arquitectura de TelJack está basada en principios de programación orientada a objetos, garantizando un código mantenible, escalable y fácil de entender.</p>
             
             <h2>Componentes Principales</h2>
@@ -372,77 +354,10 @@
 
         <!-- Nueva Sección: Tecnologías -->
         <div id="tecnologias" class="section">
-            <h1>Tecnologías Utilizadas</h1>
-            <p>TelJack está construido utilizando tecnologías modernas y probadas que garantizan un rendimiento óptimo y una experiencia de usuario excepcional.</p>
-            
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <h3>Frontend</h3>
-                    <p>HTML5, CSS3 y JavaScript para crear una interfaz responsive y atractiva</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Programación OOP</h3>
-                    <p>Implementación de principios de programación orientada a objetos</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Responsive Design</h3>
-                    <p>Diseño adaptable para dispositivos móviles y desktop</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Animaciones CSS</h3>
-                    <p>Transiciones suaves y efectos visuales atractivos</p>
-                </div>
-            </div>
-            
-            <h2>Especificaciones Técnicas</h2>
-            
-            <h3>Requisitos del Sistema</h3>
-            <ul>
-                <li>Navegador web moderno (Chrome, Firefox, Safari, Edge)</li>
-                <li>JavaScript habilitado</li>
-                <li>Resolución mínima: 320px de ancho</li>
-                <li>Conexión a internet (para cargar recursos)</li>
-            </ul>
-            
-            <h3>Características Técnicas</h3>
-            <ul>
-                <li>Código modular y reutilizable</li>
-                <li>Manejo de errores robusto</li>
-                <li>Optimización para rendimiento</li>
-                <li>Documentación completa del código</li>
-                <li>Testing unitario de componentes críticos</li>
-            </ul>
-            
-            <div class="code-box">
-                <h3>Ejemplo de Código - Clase Carta</h3>
-                <pre>
-class Carta {
-    constructor(palo, valor) {
-        this.palo = palo;
-        this.valor = valor;
-        this.puntuacion = this.calcularPuntuacion();
-    }
-    
-    calcularPuntuacion() {
-        if (this.valor === 'A') return 11;
-        if (['J', 'Q', 'K'].includes(this.valor)) return 10;
-        return parseInt(this.valor);
-    }
-}
-                </pre>
-            </div>
-            
-            <h2>Futuras Mejoras</h2>
-            <p>El proyecto está diseñado para permitir futuras expansiones y mejoras:</p>
-            <ul>
-                <li>Modo multijugador en línea</li>
-                <li>Sistema de estadísticas y logros</li>
-                <li>Diferentes variantes de Blackjack</li>
-                <li>Integración con base de datos</li>
-                <li>Aplicación móvil nativa</li>
-                <li>Sistema de apuestas virtuales</li>
-            </ul>
-        </div>
+            <h1>Codigo del Proyecto</h1>
+            <p>Codigo del proyecto</p>
+            <a href="https://github.com/Krovenix/01-Tarea-Poo/tree/Proyecto" target="_blank">Repositorio</a>
+       </div>
     </div>
 
     <script>
